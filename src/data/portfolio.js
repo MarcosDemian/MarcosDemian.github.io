@@ -47,14 +47,14 @@ export const education = [
     institution: 'Centro de E-Learning UTN',
     status: 'Certificado',
     certificateUrl:
-      'https://validator.centrodeelearning.com/validator/10cbcf14-6b2f-4924-8d81-87548c140120',
+      'https://drive.google.com/file/d/13DtIXtmCaPDwKYk5JoBIHQT-5D0xqRJz/view?usp=sharing',
   },
   {
     title: 'Data Analytics con Python',
     institution: 'Talento Tech',
     status: 'Certificado',
     certificateUrl:
-      'https://drive.google.com/file/d/1IjNS53Icga9y8h0vXYRNeu0TwvzR5bvU/view?usp=sharing',
+      'https://drive.google.com/file/d/1HbBaou3Nm-PkwFptRNmxvWPrg0lwa0Ke/view?usp=sharing',
   },
 ];
 
