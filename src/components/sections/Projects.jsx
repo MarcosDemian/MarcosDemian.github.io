@@ -1,4 +1,4 @@
-import { ExternalLink, Github, CircleDot } from 'lucide-react';
+import { ExternalLink, CircleDot } from 'lucide-react';
 import { projects } from '@/data/portfolio';
 import { Reveal } from '@/components/Reveal';
 
@@ -24,14 +24,15 @@ function ProjectCard({ project }) {
       </ul>
 
       <div className="project-links">
-        <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
-          <Github aria-hidden="true" />
-          Repositorio
-        </a>
+        {project.repoUrl && (
+          <a href={project.repoUrl} target="_blank" rel="noopener noreferrer">
+            Repositorio
+          </a>
+        )}
         {project.demoUrl && (
           <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
             <ExternalLink aria-hidden="true" />
-            Demo
+            Sitio web
           </a>
         )}
       </div>

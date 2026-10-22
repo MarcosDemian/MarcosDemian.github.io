@@ -1,19 +1,17 @@
 export const projects = [
   {
-    name: 'Hermanos Jota — Mueblería',
+    name: 'Fideos Irene — Omarmen S.A.',
     description:
-      'Proyecto académico grupal. Implementación de catálogo dinámico, búsqueda, filtros, detalle de productos, carrito con localStorage, validación de formularios y diseño responsive con Flexbox y CSS Grid.',
-    technologies: ['HTML5', 'CSS3', 'JavaScript'],
-    demoUrl: 'https://e-commerce-muebleria-hermanos-jota-beryl.vercel.app/',
-    repoUrl: 'https://github.com/MarcosDemian/hermanos-jota',
+      'Desarrollo de un sitio web comercial para presentar la marca y su catálogo de fideos laminados al huevo. Los productos se gestionan desde un archivo local, sin API ni base de datos, y el sitio está servido con Node.js y Express.',
+    technologies: ['React', 'Vite', 'CSS puro', 'Node.js', 'Express'],
+    demoUrl: 'https://fideos-irene.vercel.app/',
   },
   {
-    name: 'Superstore Sales Analysis',
+    name: 'Match Burguer — Tienda online',
     description:
-      'Proyecto de análisis exploratorio de datos utilizando Python, Pandas y SQL. Preparación y exploración del dataset, desarrollo de consultas SQL y documentación de preguntas de análisis.',
-    technologies: ['Python', 'Pandas', 'SQL'],
-    repoUrl: 'https://github.com/MarcosDemian/superstore-sales-analysis',
-    status: 'En desarrollo',
+      'Desarrollo de una tienda web para explorar productos y realizar pedidos que se finalizan por WhatsApp. El frontend en React se comunica con una API en Node.js y Express, que valida los pedidos, administra el estado del local y el stock, y protege el panel de administración mediante inicio de sesión.',
+    technologies: ['React', 'Vite', 'CSS puro', 'Node.js', 'Express', 'API REST', 'WhatsApp'],
+    demoUrl: 'https://match-burguer-frontend.vercel.app/',
   },
 ];
 
