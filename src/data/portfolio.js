@@ -11,7 +11,7 @@ export const projects = [
     description:
       'Desarrollo de una tienda web para explorar productos y realizar pedidos que se finalizan por WhatsApp. El frontend en React se comunica con una API en Node.js y Express, que valida los pedidos, administra el estado del local y el stock, y protege el panel de administración mediante inicio de sesión.',
     technologies: ['React', 'Vite', 'CSS puro', 'Node.js', 'Express', 'API REST', 'WhatsApp'],
-    demoUrl: 'https://match-burguer-frontend.vercel.app/',
+    demoUrl: 'https://match-burguer.pages.dev/',
   },
 ];
 
